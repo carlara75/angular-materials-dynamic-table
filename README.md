@@ -1,6 +1,21 @@
 # angular-materials-dynamic-table
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+I created this example after spending few days putting pieces together from different tutorials and forums.
+
+
+The main issues I found when writting the original code for my project were:
+
+* Different solutions for different versions Angular/Materials (I am using Angular 6)
+* Materials examples assume static columns always,
+* There is no straight answer for this common scenario.
+
+Some of the resources I used to get this working could be found at:
+https://material.angular.io/components/table/examples
+https://stackoverflow.com/questions/46728048/mixing-static-and-dynamic-columns-in-angular-material-table-mat-table
+
+So far my experience with Angular 5 & 6 and Materials has been very possitive. Hope this example helps.
+
+Below is the standard README.md produced by angular-cli.
 
 ## Development server
 
