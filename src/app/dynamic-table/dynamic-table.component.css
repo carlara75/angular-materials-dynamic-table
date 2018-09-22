@@ -1,0 +1,49 @@
+form {
+  margin:20px;
+}
+
+table {
+  width:100%;
+}
+
+td.mat-cell:nth-child(1),
+td.mat-footer-cell:nth-child(1),
+th.mat-header-cell:nth-child(1) {
+  width:60px;
+}
+
+th.actions,
+td.actions {
+  white-space:nowrap !important;
+  text-align:right;
+  padding-right:60px !important;
+}
+
+td.actions button {
+  color:#0273c6;
+}
+
+.mat-fab.mat-primary,
+.mat-flat-button.mat-primary,
+.mat-mini-fab.mat-primary,
+.mat-raised-button.mat-primary {
+  background-color: #0273c6;
+}
+
+.fld-size-sm {
+  width:50%;
+}
+
+.fld-size-lg {
+  width: 100%;
+}
+
+.ddl-filter {
+  width:25%;
+}
+
+.table-filter {
+  margin-top: 0.5rem !important;
+  margin-left: 1.5rem !important;
+  width:50%;
+}
